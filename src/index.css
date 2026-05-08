@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer components {
+  .display-title {
+    @apply text-4xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl;
+  }
+
+  .section-title {
+    @apply text-4xl font-semibold leading-tight text-white sm:text-6xl;
+  }
+
+  .section-label {
+    @apply mb-4 text-sm uppercase tracking-[0.3em] text-zinc-500;
+  }
+
+  .section-description {
+    @apply text-lg leading-relaxed text-zinc-400;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050505;
+  color: white;
+  overflow-x: hidden;
+  font-family: "Satoshi", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section-fade {
+  position: relative;
+}
+
+.section-fade::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+
+  width: 100%;
+  height: 140px;
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #050505
+  );
+}
