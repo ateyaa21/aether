@@ -17,7 +17,7 @@ export default function AmbientBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute left-[-20%] top-[-20%] h-[1100px] w-[1100px] rounded-full bg-cyan-400/25 blur-[260px]"
+        className="absolute left-[-20%] top-[-20%] h-[1100px] w-[1100px] rounded-full bg-cyan-400/25 blur-[160px]"
       />
 
       <motion.div
@@ -32,7 +32,7 @@ export default function AmbientBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute right-[-20%] top-[0%] h-[1200px] w-[1200px] rounded-full bg-blue-500/25 blur-[280px]"
+        className="absolute right-[-20%] top-[0%] h-[1200px] w-[1200px] rounded-full bg-blue-500/25 blur-[180px]"
       />
 
       <motion.div
@@ -47,7 +47,7 @@ export default function AmbientBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute bottom-[-30%] left-[5%] h-[950px] w-[950px] rounded-full bg-sky-300/20 blur-[240px]"
+        className="absolute bottom-[-30%] left-[5%] h-[950px] w-[950px] rounded-full bg-sky-300/20 blur-[160px]"
       />
 
       <motion.div
