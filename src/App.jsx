@@ -3,7 +3,6 @@ import Lenis from "lenis";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import AmbientBackground from "./components/AmbientBackground";
 
 import Hero from "./sections/Hero";
 import Foundations from "./sections/Foundations";
@@ -38,7 +37,6 @@ export default function App() {
 
   return (
     <main className="min-h-screen bg-[#050505]">
-      <AmbientBackground />
 
       <Navbar />
 
