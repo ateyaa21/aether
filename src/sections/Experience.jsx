@@ -74,7 +74,6 @@ export default function Experience() {
                     }
                   `}
                 />
-
                 <span className="text-sm text-zinc-600">
                   0{index + 1}
                 </span>
