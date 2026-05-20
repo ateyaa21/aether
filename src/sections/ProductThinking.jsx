@@ -40,11 +40,9 @@ export default function ProductThinking() {
                 <span className="text-sm text-zinc-600">
                   0{index + 1}
                 </span>
-
                 <h3 className="mt-10 text-2xl font-semibold text-white">
                   {item}
                 </h3>
-
                 <div className="mt-10 h-px w-full bg-white/10 transition duration-500 group-hover:bg-white/30" />
               </div>
             </Reveal>
